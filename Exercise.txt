@@ -1,0 +1,10 @@
+﻿Year: 2016
+Creation of a queue M/M/2/10 with threshold. An image is provided with the respective queue structure.
+
+In standby system M / M / 2/10 with 2 servers and maximum number of clients 10, including those served, 
+as long as the number of clients in the system is less than or equal to k (k = 1, ..., 9) arrivals are 
+always routed on server a, b does not remain idle. 
+Server b is activated only when the number of customers in the system exceeds the threshold k.
+
+In the system we have Poisson arrivals, rate λ = 1, λ = 2 and λ = 3 customers / sec (three cases) and 
+exponential rate services ma = 4 customers / sec and µ = 1 customer / sec.
